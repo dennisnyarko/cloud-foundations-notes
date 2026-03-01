@@ -52,9 +52,9 @@ API: an application programming interface that defines predetermined ways for yo
 
 - Elasticity: ability to automatically scale resources up or down in response to real-time demand.
 
-  ### Amazon EC2 Auto Scaling
-  - automatically adjusting the number of EC2 instances based on changes in application demand, providing better availability.
+### Amazon EC2 Auto Scaling
+- automatically adjusting the number of EC2 instances based on changes in application demand, providing better availability.
 
-  ### EC2 Auto Scaling offers Two approaches:
-  1) Dynamic scaling: adjusts in real time to fluctuations in demand.
-  2) Predictive scaling: preemptively schedules the right number of instances based on anticipated demand.
+### EC2 Auto Scaling offers Two approaches:
+1) Dynamic scaling: adjusts in real time to fluctuations in demand.
+2) Predictive scaling: preemptively schedules the right number of instances based on anticipated demand.
