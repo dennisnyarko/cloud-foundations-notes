@@ -5,7 +5,7 @@
 - Multi-tenancy: allows multiple virtual machines to share resources on the same physical host, with isolation between them.
 
 ## Amazon EC2
-- on-demand compute capacity that can be quickly launched, scaled, and terminated, with costs based only on active usage.
+- On-demand compute capacity that can be quickly launched, scaled, and terminated, with costs based only on active usage.
 - Flexible, cost-effective, and faster than managing on-premises servers.
 
 ## How EC2 Works
@@ -29,9 +29,9 @@ API: an application programming interface that defines predetermined ways for yo
 - AWS Software Development Kit (SDK): using programming languages (Python)
 
 ## Launching an Amazon EC2 Instance
-1) configure the AMI to define the operating system and software.
-2) select the instance type to allocate CPU, memory, and storage.
-3) set up storage options, including the type and size of the volume.
+1) Configure the AMI to define the operating system and software.
+2) Select the instance type to allocate CPU, memory, and storage.
+3) Set up storage options, including the type and size of the volume.
 - Amazon Machine Images (AMI): pre-built virtual machine images that have the basic components for what is needed to start an instance.
 - AMI: includes the operating system, storage setup, architecture type, permissions for launching, and any extra software that is already installed.
 
