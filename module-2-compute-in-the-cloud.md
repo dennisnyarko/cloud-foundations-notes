@@ -2,8 +2,7 @@
 - Compute refers to the processing power needed to run applications, manage data, and perform calculations.
 - Compute in the cloud means creating virtual machines with a cloud provider to run applications and tasks over the internet.
 - They are VMs
-
-- Multi-tenancy: allows multiple virtual machines to share resources on the same physical host, with isolation between them.
+Multi-tenancy: allows multiple virtual machines to share resources on the same physical host, with isolation between them.
 
 ## Amazon EC2
 - on-demand compute capacity that can be quickly launched, scaled, and terminated, with costs based only on active usage.
@@ -20,3 +19,11 @@
 - Memory optimized: for memory-intensive tasks like processing large datasets, data analytics, and databases.
 - Accelerated computing: using hardware accelerators, like graphics processing units (GPUs), to efficiently handle tasks, eg. floating-point calculations, graphics processing, and machine learning.
 - Storage optimized: for workloads that require high performance for locally stored data, eg. large databases, data warehousing, and I/O-intensive applications.
+
+## How to Provision AWS Resources
+You interact with AWS services through API calls
+API: an application programming interface that defines predetermined ways for you to interact with AWS services.
+### Ways to call/invoke AWS APIs:
+- AWS Management Console: point-and-click style (web interface)
+- AWS Command Line Interface (CLI): run commands using AWS CloudShell (a cloud-based terminal with the AWS CLI already installed in a managed environment).
+- AWS Software Development Kit (SDK): using programming languages (Python)
