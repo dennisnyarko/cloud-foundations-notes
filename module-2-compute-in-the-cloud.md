@@ -68,4 +68,27 @@ API: an application programming interface that defines predetermined ways for yo
 - Desired capacity: the ideal number of instances needed to handle the current workload, which Auto Scaling aims to maintain.
 - Maximum capacity: sets an upper limit on the number of instances that can be launched, preventing over-scaling and controlling costs.
 
-  
+# Elastic Load Balancing (ELB)
+- automatically distributes incoming application traffic across multiple resources, such as EC2 instances, to optimize performance and reliability.
+- A load balancer serves as the single point of contact for all incoming web traffic to an Auto Scaling group.
+
+### ELB Benefits
+1) fficient traffic distribution: evenly distributes traffic across EC2 instances, preventing overload on any single instance and optimizing resource utilization.
+2) Automatic scaling: scales with traffic and automatically adjusts to changes in demand for a seamless operation as backend instances are added or removed.
+3) Simplified management: decouples front-end and backend tiers and reduces manual synchronization. It also handles maintenance, updates, and failover to ease operational overhead.
+
+### ELB Routing Methods
+- Round Robin: Distributes traffic evenly across all available servers in a cyclic manner.
+- Least Connections: Routes traffic to the server with the fewest active connections, maintaining a balanced load.
+- IP Hash: Uses the client’s IP address to consistently route traffic to the same server.
+- Least Response Time: Directs traffic to the server with the fastest response time, minimizing latency.
+
+### NB: 
+- ELB and Auto Scaling work together to efficiently manage varying levels of demand. ELB is responsible for distributing incoming traffic evenly across multiple EC2 instances. This makes sure that no single instance becomes overwhelmed. It also serves as a single-entry point for traffic into an Auto Scaling group, directing requests to the appropriate resources.
+- Meanwhile, Auto Scaling automatically adjusts the number of EC2 instances based on the demand. It adds or removes instances as needed for optimal performance and resource usage. Together, ELB and Auto Scaling help maintain application reliability and cost efficiency.
+
+# Messaging & Queuing
+- Amazon Simple Queue Service (SQS): facilitates reliable communication between software components. An application places messages into a queue, and a user or service retrieves the message, processes it, and then removes it from the queue.
+- Amazon Simple Notification Service (SNS): a publish-subscribe service that publishers use to send messages to subscribers through SNS topics.
+- Amazon EventBridge: a serverless service that helps connect different parts of an application using events, helping to build scalable, event-driven systems.
+  - EventBridge can route events, like order placed or payment completed, to the relevant services (payment, restaurant, inventory, and delivery). It can handle high volumes of events during peak times, making sure each service works independently. Even if one service fails, EventBridge will store the event and process it as soon as the service is available again. EventBridge helps provide a smooth and reliable operation across the entire system.
