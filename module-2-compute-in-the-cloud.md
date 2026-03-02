@@ -20,6 +20,10 @@
 - Accelerated computing: using hardware accelerators, like graphics processing units (GPUs), to efficiently handle tasks, eg. floating-point calculations, graphics processing, and machine learning.
 - Storage optimized: for workloads that require high performance for locally stored data, eg. large databases, data warehousing, and I/O-intensive applications.
 
+### Bonus: 
+- Amazon EC2 is the cloud service that lets you rent virtual computers.
+- An EC2 instance is the virtual computer you actually run.
+
 ## How to Provision AWS Resources
 You interact with AWS services through API calls
 API: an application programming interface that defines predetermined ways for you to interact with AWS services.
@@ -58,3 +62,10 @@ API: an application programming interface that defines predetermined ways for yo
 ### EC2 Auto Scaling offers Two approaches:
 1) Dynamic scaling: adjusts in real time to fluctuations in demand.
 2) Predictive scaling: preemptively schedules the right number of instances based on anticipated demand.
+
+### An Auto Scaling group is configured with the following three key settings:
+- Minimum capacity: defines the least number of EC2 instances required to keep the application running.
+- Desired capacity: the ideal number of instances needed to handle the current workload, which Auto Scaling aims to maintain.
+- Maximum capacity: sets an upper limit on the number of instances that can be launched, preventing over-scaling and controlling costs.
+
+  
