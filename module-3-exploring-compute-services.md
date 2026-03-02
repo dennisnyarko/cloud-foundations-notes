@@ -21,3 +21,6 @@
 - Real-time image processing for a social media application.
 - Personalized content delivery for a news aggregator.
 - Real-time event handling for an online game.
+
+# Containers and Orchestration on AWS
+- Containers bundle the application with all of its dependencies and configuration, so it runs the same across different environments.
