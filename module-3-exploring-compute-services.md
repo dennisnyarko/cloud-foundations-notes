@@ -1,7 +1,7 @@
 # Introduction to Serverless Computing
 - With serverless computing, you run applications without managing the underlying infrastructure
 - Unmanaged services: like Amazon EC2, AWS takes care of the underlying physical infrastructure, but you're responsible for setting up, securing, and maintaining the operating system, network configurations, and applications on your instances.
-- Managed services: handlex most of the infrastructure for you, but you still need to set up things like deployment options, scaling, and environment settings.
+- Managed services: handles most of the infrastructure for you, but you still need to set up things like deployment options, scaling, and environment settings.
 - Fully-managed services: (like AWS Lambda), you don’t manage any servers at all. You upload your code, and AWS takes care of the rest, including infrastructure, scaling, and availability.
 
 ## AWS Lambda
@@ -24,4 +24,7 @@
 
 # Containers and Orchestration on AWS
 - Containers bundle the application with all of its dependencies and configuration, so it runs the same across different environments.
+- Containers are faster and lighter than virtual machines (VMs) because they share the host computer’s operating system. VMs use a hypervisor to run full, separate operating systems, which makes them less resource-efficient and have longer startup times.
 
+# AWS Container Services
+1) 
