@@ -27,4 +27,14 @@
 - Containers are faster and lighter than virtual machines (VMs) because they share the host computer’s operating system. VMs use a hypervisor to run full, separate operating systems, which makes them less resource-efficient and have longer startup times.
 
 # AWS Container Services
-1) 
+1) Amazon Elastic Container Service (Amazon ECS): a scalable container orchestration service for running and managing containers on AWS, like Docker containers. (Docker is a software platform for building, testing, and deploying applications quickly). *Amazon ECS launch types*:
+    - Amazon ECS with Amazon EC2 is ideal for small-to-medium businesses that need full control over infrastructure. Suitable for custom applications requiring specific hardware or networking configurations, with the flexibility of Amazon EC2 and the simplicity of Amazon ECS.
+    - Amazon ECS with AWS Fargate is perfect for startups or small teams building web applications with variable traffic. It's a serverless option—no server management required—so teams can focus on development while Amazon ECS handles scaling and orchestration.
+
+2) Amazon Elastic Kubernetes Service (Amazon EKS): Fully managed Kubernetes service for deploying and scaling containers. *Amazon EKS launch types*:
+    - Amazon EKS with Amazon EC2: This is best for enterprises needing full control over infrastructure. It offers deep customization of EC2 instances alongside Kubernetes scalability—ideal for complex, large-scale workloads.
+    - Amazon EKS with AWS Fargate: This is great for teams wanting Kubernetes flexibility without managing servers. It combines Kubernetes power with serverless simplicity, helping to scale applications quickly across various use cases.
+3) Amazon Elastic Container Registry: Stores, manages, and deploys Open Container Initiative (OCI)-compliant container images.
+4) AWS Fargate: Serverless compute engine for containers — removes the need to manage servers and allows devs focus on app development.
+
+
