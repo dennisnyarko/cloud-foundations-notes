@@ -5,3 +5,5 @@
 ## AWS edge locations
 - Like our coffee franchise could expand with smaller versions of the shop such as mobile coffee carts, AWS has smaller footprint facilities called edge locations. Edge locations cache items like images, videos, and other resources, so that users can access the content they need with lower latency.
 
+# Choosing AWS Regions
+## Key considerations when choosing Regions
