@@ -18,3 +18,8 @@
 - High availability: refers to the capability of a system to operate continuously without failing. In the context of AWS infrastructure, it means that your applications can handle the failure of individual components without significant downtime.
 - Agility: refers to the ability to quickly adapt to changing requirements or market conditions. With AWS infrastructure in place, you can modify and deploy services rapidly.
 - Elasticity: refers to the ability of a system to scale resources up or down automatically in response to changes in demand. AWS infrastructure is set up for you to scale resources up and down on demand.
+
+## Key elements of AWS Global Infrastructure
+- AWS Regions: geographical areas around the world that are made up of multiple data centers. These data centers provide scalable and redundant infrastructure for hosting cloud services. (AWS Regions = multiple AZs)
+- Availability Zones: distinct locations within a Region, each designed as an independent zone with its own power, networking, and connectivity. Availability Zones maintain high availability and fault tolerance for applications. (AZs = multiple data centers)
+- Edge locations: strategically placed sites around the world that cache content to deliver data, video, and applications with lower latency and higher transfer speeds. Example includes Amazon CloudFront, which is a content delivery network (CDN) and caching system.
