@@ -1,13 +1,14 @@
 # cloud-foundations-notes
 
-This repository documents my AWS Cloud Practitioner preparation 
-from a DevOps-focused perspective.
+This repository contains structured notes from my study of AWS Cloud fundamentals while preparing for the AWS Certified Cloud Practitioner certification.
 
-Objective:
-Build strong cloud fundamentals before progressing to AWS Solutions Architect and Infrastructure as Code (Terraform).
+The goal is to build a solid understanding of cloud computing concepts and core AWS services before advancing to more architecture-focused certifications, such as AWS Solutions Architect.
 
-Each section focuses on:
+These notes serve as a personal knowledge base for understanding how core AWS services are used in real cloud environments.
+
+Each topic is documented with a focus on:
+
 - What the service is
 - When to use it
 - When NOT to use it
-- DevOps relevance
+- Important characteristics and use cases
