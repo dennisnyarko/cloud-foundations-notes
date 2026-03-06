@@ -9,8 +9,8 @@
 - Flexible, cost-effective, and faster than managing on-premises servers.
 
 ## How EC2 Works
-1) Launch the instance: start by selecting (Amazon Machine Image (AMI), which defines the operating system)
-2) Connect to the instance: SSH for Linux instances or Remote Desktop Protocol (RDP) for Windows instances. Also AWS Systems Manager offers secure & simplified method for accessing instances.
+1) Launch the instance: start by selecting the Amazon Machine Image (AMI), which defines the operating system.
+2) Connect to the instance: SSH for Linux instances or Remote Desktop Protocol (RDP) for Windows instances. Also, AWS Systems Manager offers a secure & simplified method for accessing instances.
 3) Use: run commands, install software, add storage, organize files, and perform other tasks.
 
 ## Amazon EC2 Instance Types
@@ -46,7 +46,7 @@ API: an application programming interface that defines predetermined ways for yo
 - Savings plan: Save up to 72% across a variety of instance types and services by committing to a consistent usage level for 1 or 3 years.
 - Dedicated hosts: Reserve an entire physical server for your exclusive use with full control (for security & licensing needs).
 - Dedicated instances: Pay for instances running on hardware dedicated solely to your account. (isolated from other AWS customers).
-- dedicated host gives you your own physical server while dedicated instance offer isolation but still use shared infrastructure.
+- Dedicated host gives you your own physical server, while a dedicated instance offers isolation but still uses shared infrastructure.
 - Dedicated Hosts offer exclusive use of a server with full control, whereas Dedicated Instances provide isolation without server control.
 
 ## Scaling Amazon EC2
@@ -73,7 +73,7 @@ API: an application programming interface that defines predetermined ways for yo
 - A load balancer serves as the single point of contact for all incoming web traffic to an Auto Scaling group.
 
 ### ELB Benefits
-1) fficient traffic distribution: evenly distributes traffic across EC2 instances, preventing overload on any single instance and optimizing resource utilization.
+1) Efficient traffic distribution: evenly distributes traffic across EC2 instances, preventing overload on any single instance and optimizing resource utilization.
 2) Automatic scaling: scales with traffic and automatically adjusts to changes in demand for a seamless operation as backend instances are added or removed.
 3) Simplified management: decouples front-end and backend tiers and reduces manual synchronization. It also handles maintenance, updates, and failover to ease operational overhead.
 
