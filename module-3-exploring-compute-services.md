@@ -41,4 +41,4 @@
 - AWS Elastic Beanstalk: a fully managed service that streamlines the deployment, management, and scaling of web applications.
 - AWS Batch: a fully managed service that you can use to run batch computing workloads on AWS.
 - Amazon Lightsail: offers **simplified** virtual private servers (VPSs), storage, databases, and networking at a predictable monthly price.
-- AWS Outposts: a fully managed hybrid cloud solution that extends AWS infrastructure and services to on-premises data center.
+- AWS Outposts: a fully managed hybrid cloud solution that extends AWS infrastructure and services to on-premises data centers.
