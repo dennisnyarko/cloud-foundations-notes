@@ -25,7 +25,8 @@
 - An EC2 instance is the virtual computer you actually run.
 
 ## How to Provision AWS Resources
-You interact with AWS services through API calls
+You interact with AWS services through API calls.
+
 API: an application programming interface that defines predetermined ways for you to interact with AWS services.
 ### Ways to call/invoke AWS APIs:
 - AWS Management Console: point-and-click style (web interface)
