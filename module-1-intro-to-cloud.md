@@ -43,7 +43,7 @@
 ## Cloud Service Models
 
 ### 1. IaaS (Infrastructure as a Service)
-- Provides virtual machines, storage, and networking.  
+- Provides virtual machines, storage, and networking. (basically you rent infrastructure)
 - You manage the OS, runtime, and applications.
 
 ### 2. PaaS (Platform as a Service)
