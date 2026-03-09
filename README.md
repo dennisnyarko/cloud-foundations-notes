@@ -9,6 +9,6 @@ These notes serve as a personal knowledge base for understanding how core AWS se
 Each topic is documented with a focus on:
 
 - What the service is.
-- When to use it
+- When to use it.
 - When NOT to use it
 - Important characteristics and use cases
