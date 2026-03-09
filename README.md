@@ -10,5 +10,5 @@ Each topic is documented with a focus on:
 
 - What the service is.
 - When to use it.
-- When NOT to use it
+- When NOT to use it.
 - Important characteristics and use cases
