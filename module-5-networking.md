@@ -21,3 +21,4 @@ Networking refers to the interconnection of devices that can exchange data and r
 ### Architectural diagram
 <img width="2914" height="1508" alt="image" src="https://github.com/user-attachments/assets/a8bc9d25-807a-4ea6-a2b8-87646b66df08" />
 
+# Organizing AWS Cloud Resources
