@@ -22,4 +22,14 @@ Networking refers to the interconnection of devices that can exchange data and r
 <img width="2914" height="1508" alt="image" src="https://github.com/user-attachments/assets/a8bc9d25-807a-4ea6-a2b8-87646b66df08" />
 
 # Organizing AWS Cloud Resources
+- Public-facing resources => To allow traffic from the public internet to flow into and out of your VPC, you must attach what is called an internet gateway to your VPC. An internet gateway is like a doorway that is open to the public.
 <img width="2910" height="1538" alt="image" src="https://github.com/user-attachments/assets/51eb718a-314a-4fb9-a9da-f66842e1d9c8" />
+
+
+
+- Internal private resources => only allows people in if they are coming from an approved network, not the public internet. This private doorway is called a virtual private gateway, and it allows you to create a VPN connection between a private network, like your on-premises data center or internal corporate network to your VPC.
+<img width="3024" height="1964" alt="image" src="https://github.com/user-attachments/assets/cd3c9786-cbaa-435a-90aa-e8f41c51052b" />
+
+Scenarios
+1) Public traffic = a coffee shop that is accessible to the public (Customers can enter anytime)
+2) Private traffic = a coffee shop located inside a private corporate office building. If I want to go get coffee, I have to badge in to verify my identity.
