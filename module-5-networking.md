@@ -22,3 +22,4 @@ Networking refers to the interconnection of devices that can exchange data and r
 <img width="2914" height="1508" alt="image" src="https://github.com/user-attachments/assets/a8bc9d25-807a-4ea6-a2b8-87646b66df08" />
 
 # Organizing AWS Cloud Resources
+<img width="2910" height="1538" alt="image" src="https://github.com/user-attachments/assets/51eb718a-314a-4fb9-a9da-f66842e1d9c8" />
