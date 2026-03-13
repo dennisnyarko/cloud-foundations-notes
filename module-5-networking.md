@@ -8,6 +8,10 @@ Networking refers to the interconnection of devices that can exchange data and r
 
 **Key Idea** => A VPC = your own virtual data center network inside AWS, where you control IP ranges, subnets, routing, and security.
 
+### Benefits of VPC
+- Helps increase security because you can secure and monitor connections, screen traffic, and restrict instance access.
+- Gives you full control over your resource placement, connectivity, and security.
+- You will spend less time setting up, managing, and validating your virtual network when compared to on-premises network management.
 
 ### Subnet
 - It is a smaller network created within a VPC to organize and manage resources in AWS. They are essentially segments of your VPC, allowing you to divide your VPC into smaller, manageable sections. A subnet is a range of IP addresses in your VPC.
@@ -33,3 +37,14 @@ Networking refers to the interconnection of devices that can exchange data and r
 Scenarios
 1) Public traffic = a coffee shop that is accessible to the public (Customers can enter anytime)
 2) Private traffic = a coffee shop located inside a private corporate office building. If I want to go get coffee, I have to badge in to verify my identity.
+
+
+So, if you want to establish an encrypted VPN connection to your private internal AWS resources, you need to attach a virtual private gateway to your VPC.
+
+
+- Amazon Virtual Private Cloud: is used to establish boundaries around your AWS resources.
+- Virtual private gateway: allows protected internet traffic to enter into the VPC.
+- Virtual private network: A VPN encrypts your internet traffic, helping protect it from anyone who might try to intercept or monitor it.
+
+    - A virtual private gateway + a VPN connection + a private subnet in the Amazon VPC = direct connection to your data center through the internet with a secure connection.
+    - AWS Direct Connect lets you establish a completely private, dedicated fibre connection from your data center to AWS.
