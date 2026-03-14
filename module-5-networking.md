@@ -52,7 +52,12 @@ So, if you want to establish an encrypted VPN connection to your private interna
 
 # More Ways to Connect to the AWS Cloud
 Four ways to connect to the AWS Cloud:
-1) AWS Client VPN
+1) AWS Client VPN: a networking service you can use to connect your remote workers and on-premises networks to the cloud. It is a fully managed, elastic VPN service that automatically scales up or down based on user demand. Because it is a cloud VPN solution, you don’t need to install and manage hardware or try to estimate how many remote users to support at one time.
+
+**Benefits**: AWS Client VPN provides advanced authentication and remote access. It is elastic and fully managed.
+
+**Use case**: It can be used to quickly scale remote-worker access.
+
 2) AWS Site-to-Site VPN
 3) AWS PrivateLink
 4) AWS Direct Connect
