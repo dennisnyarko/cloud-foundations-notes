@@ -51,3 +51,8 @@ So, if you want to establish an encrypted VPN connection to your private interna
 
 
 # More Ways to Connect to the AWS Cloud
+Four ways to connect to the AWS Cloud:
+1) AWS Client VPN
+2) AWS Site-to-Site VPN
+3) AWS PrivateLink
+4) AWS Direct Connect
