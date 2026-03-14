@@ -48,3 +48,6 @@ So, if you want to establish an encrypted VPN connection to your private interna
 
     - A virtual private gateway + a VPN connection + a private subnet in the Amazon VPC = direct connection to your data center through the internet with a secure connection.
     - AWS Direct Connect lets you establish a completely private, dedicated fibre connection from your data center to AWS.
+
+
+# More Ways to Connect to the AWS Cloud
