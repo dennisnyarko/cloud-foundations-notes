@@ -74,4 +74,4 @@ This is a highly available, scalable technology that you can use to privately co
 **Use case**: It is used for connecting your clients in your VPC to resources, other VPCs, and endpoints.
 
 4) AWS Direct Connect:
-
+This is a service that makes it possible for you to establish a dedicated private connection between your network and VPC in the AWS Cloud.
