@@ -73,4 +73,5 @@ This is a highly available, scalable technology that you can use to privately co
 
 **Use case**: It is used for connecting your clients in your VPC to resources, other VPCs, and endpoints.
 
-4) AWS Direct Connect
+4) AWS Direct Connect:
+
