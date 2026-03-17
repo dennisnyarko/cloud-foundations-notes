@@ -81,8 +81,7 @@ This service enables you to establish a dedicated private connection between you
 ### More about Direct Connect:
 
 - Latency-sensitive applications: Direct Connect bypasses the internet and provides a consistent, low-latency network experience. This makes it ideal for applications like video streaming and other real-time applications that require high performance.
-Media files moving quickly labeled latency-sensitive applications.
-
+eg: Media files moving quickly labelled latency-sensitive applications.
 
 - Large-scale data migration or transfer: Direct Connect helps ensure smooth and reliable data transfers at massive scale for real-time analysis, rapid data backup, or broadcast media processing.
 
