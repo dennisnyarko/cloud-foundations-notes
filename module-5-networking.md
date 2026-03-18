@@ -78,6 +78,7 @@ This service enables you to establish a dedicated private connection between you
 
 **Benefits**: AWS Direct Connect reduces network costs and increases the amount of bandwidth.
 
+
 ### More about Direct Connect:
 
 - Latency-sensitive applications: Direct Connect bypasses the internet and provides a consistent, low-latency network experience. This makes it ideal for applications like video streaming and other real-time applications that require high performance.
