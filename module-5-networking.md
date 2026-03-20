@@ -77,7 +77,7 @@ This is a highly available, scalable technology that you can use to privately co
 This service enables you to establish a dedicated private connection between your network and a VPC in the AWS Cloud.
 
 **Benefits**: AWS Direct Connect reduces network costs and increases the amount of bandwidth.
-
+(to-do: find the exact difference)
 
 ### More about Direct Connect:
 
