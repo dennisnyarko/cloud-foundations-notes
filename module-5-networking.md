@@ -79,7 +79,7 @@ This service enables you to establish a dedicated private connection between you
 **Benefits**: AWS Direct Connect reduces network costs and increases the amount of bandwidth.
 
 
-(to-do: find the exact difference between the four)
+**(to-do: find the exact difference between the four)**
 
 ### More about Direct Connect:
 
