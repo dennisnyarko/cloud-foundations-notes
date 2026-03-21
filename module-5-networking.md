@@ -66,14 +66,14 @@ This is a highly available, scalable technology that you can use to privately co
 
 **Use case**: It is used for connecting your clients in your VPC to resources, other VPCs, and endpoints.
 
-3) AWS PrivateLink:
+3) ### AWS PrivateLink:
 This is a highly available, scalable technology that you can use to privately connect your VPC to services and resources as if they were in your VPC. You do not need to use an internet gateway, NAT device, public IP address, Direct Connect connection, or AWS Site-to-Site VPN connection to allow communication with AWS services or resources from your private subnets. Instead, you control the specific API endpoints, sites, services, and resources that are reachable from your VPC.
 
 **Benefits**: AWS PrivateLink helps you secure your traffic and connect with simplified management rules.
 
 **Use case**: It is used for connecting your clients in your VPC to resources, other VPCs, and endpoints.
 
-4) AWS Direct Connect:
+4) ### AWS Direct Connect:
 This service enables you to establish a dedicated private connection between your network and a VPC in the AWS Cloud.
 
 **Benefits**: AWS Direct Connect reduces network costs and increases the amount of bandwidth.
@@ -138,3 +138,81 @@ Here’s a **simple real-world way to understand them**:
 
 ---
 
+## Additional gateway services
+There are several different types of gateways you can use to connect your AWS resources
+
+- AWS Transit Gateway is used to connect your Amazon VPCs and on-premises networks through a central hub.
+- Network Address Translation (NAT) Gateway: You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services can't initiate a connection with those instances.
+
+
+### Extra points to note
+
+---
+
+### 🔑 What “Gateway” means (simple)
+
+A **gateway** = a resource that **routes traffic between two different networks or systems**.
+
+---
+
+### 🔹 Common AWS Gateway Services (relevant here)
+
+#### 1. Internet Gateway (IGW)
+
+* Connects your VPC to the internet
+* Used for public access (web servers, etc.)
+
+👉 VPC ↔ Internet
+
+---
+
+#### 2. Virtual Private Gateway (VGW)
+
+* Used with **Site-to-Site VPN**
+* AWS side of the VPN connection
+
+👉 On-prem network ↔ AWS (via VPN)
+
+---
+
+#### 3. Transit Gateway (TGW)
+
+* Central hub to connect **multiple VPCs and on-prem networks**
+* Simplifies complex networking
+
+👉 Many VPCs + networks ↔ one central gateway
+
+---
+
+#### 4. NAT Gateway
+
+* Allows private resources to access the internet **without being exposed**
+
+👉 Private subnet → Internet (outbound only)
+
+---
+
+#### 5. VPC Endpoint (Gateway Endpoint & Interface Endpoint)
+
+* Used with **PrivateLink**
+* Lets you access AWS services privately
+
+👉 VPC ↔ AWS service (no internet)
+
+---
+
+### 🧠 How it ties to above topics
+
+* **Site-to-Site VPN** → uses **Virtual Private Gateway**
+* **Client VPN** → connects users into VPC (via endpoint, not IGW)
+* **PrivateLink** → uses **VPC Endpoints**
+* **Direct Connect** → uses **Direct Connect Gateway**
+
+---
+
+### ⚡ Easy way to remember
+
+* **Gateways = traffic controllers**
+* They decide **how traffic enters, leaves, or moves within AWS**
+
+---
