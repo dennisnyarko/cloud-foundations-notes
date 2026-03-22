@@ -216,3 +216,5 @@ A **gateway** = a resource that **routes traffic between two different networks 
 * They decide **how traffic enters, leaves, or moves within AWS**
 
 ---
+
+# Subnets, Security Groups, and Network Access Control Lists
