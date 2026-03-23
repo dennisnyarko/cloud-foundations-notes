@@ -219,7 +219,21 @@ A **gateway** = a resource that **routes traffic between two different networks 
 
 # Subnets, Security Groups, and Network Access Control Lists
 
-Subnets
+Packets are checked against a Network ACL (Access Control List) to see if the packet has permissions to either ​leave or enter the subnet, based on who it was sent from ​and how it's trying to communicate
+
+Every EC2 instance, when launched, automatically has a security group. ​And by default, the security group does not allow any traffic ​into the instance at all. ​All ports are blocked. ​All IP addresses sending packets are blocked. 
+
+The key difference between a security group and a network ​ACL is that the security group is stateful. ​That means, as we discussed, it has some kind of memory about who to allow in or out. ​And the network ACL is stateless, which remembers nothing and checks ​every single packet that crosses its border, regardless ​of any circumstances
+
+Network ACLs perform stateless packet filtering. They remember nothing and check packets that cross the subnet border each way: inbound and outbound.
+
+Security groups perform stateful packet filtering. They remember previous decisions made for incoming packets.
+
+Network ACL => subnet level security
+
+Security group => instance level security
+
+## Subnets
 
 A subnet is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private.
 
@@ -227,3 +241,29 @@ Public subnets contain resources that need to be accessible by the public, such 
 
 Private subnets contain resources that should be accessible only through your private network, such as a database that contains customers’ personal information and order histories.
 
+---
+### Network traffic in a VPC (The movement of data packets travelling across a network)
+
+<img width="1530" height="440" alt="image" src="https://github.com/user-attachments/assets/8fe4c01e-5b82-4168-bd10-a59343e0c478" />
+---
+
+# Global Networking
+- Edge networking is the process of bringing information storage and computing abilities closer to the devices that produce that information and the users who consume it
+
+### AWS Edge Services
+- Amazon Route 53 is a DNS that provides a reliable and cost-effective way to route end users to internet applications.
+- Amazon CloudFront is a content delivery network (CDN) service that delivers your content with faster loading times, cost savings, and reliability.
+- AWS Global Accelerator is a service that uses the AWS global network to improve application availability, performance, and security. It uses intelligent traffic routing and fast failover if something goes wrong in one of your application locations.
+
+---
+To learn more, review each of the following numbered items below the image.
+
+<img width="1544" height="674" alt="image" src="https://github.com/user-attachments/assets/a0cf7ea9-29e4-428c-bb0d-0497b5a795ec" />
+
+1) Customer request: A customer requests data from the application by going to AnyCompany’s website.
+
+2) Amazon Route 53: Amazon Route 53 uses DNS resolution to identify AnyCompany.com’s corresponding IP address, 192.0.2.0. This information is sent back to the customer.
+
+3) CloudFront: The customer’s request is sent to the nearest edge location through CloudFront.
+
+4) Application Load Balancer: Amazon CloudFront connects to the Application Load Balancer, which sends the incoming packet to an Amazon EC2 instance.
