@@ -100,3 +100,31 @@ Benefits
 - Disaster recovery (EBS snapshots provide reliable backup solutions that can be restored in different regions during emergencies).
 - Cost Optimization.
 - Performance tuning.
+
+# Amazon Elastic Block Store (Amazon EBS) Data Lifecycle
+Amazon EBS data lifecycle management involves creating, backing up, and deleting volumes and snapshots. This process optimizes storage costs and helps to ensure data protection.
+
+## EBS Snapshots
+- EBS snapshots are point-in-time backups of EBS volume.
+- They can be used for disaster recovery, data migration, volume resizing, and for creating consistent backups of production workloads.
+- They are incremental, so they only save the blocks on the volume that have changed after your most recent snapshot.
+- EBS snapshots can be used to create multiple new volumes, and new volumes created from a snapshot are an exact copy of the original volume at the time the snapshot was taken
+- napshots of EBS volumes are stored redundantly in multiple Availability Zones using Amazon S3.
+
+### Working with EBS snapshots
+In keeping with the AWS shared responsibility model, as the customer, you are responsible for scheduling and managing regular EBS snapshots as part of your backup strategy. This includes monitoring snapshot costs and deleting unnecessary snapshots to avoid excessive charges. You also need to make sure sensitive data within snapshots is encrypted, verify snapshot integrity, and test restoration procedures regularly.
+
+Benefits of EBS Snapshots
+- Data protection and recovery
+- Operational flexibility
+- Cost effective
+
+### Amazon Data Lifecycle Manager
+You can automate the creation, retention, and deletion of EBS snapshots using Amazon Data Lifecycle Manager. Amazon Data Lifecycle Manager can schedule snapshots during off-peak hours to minimize performance impact and automatically delete outdated backups to control storage costs. It's particularly valuable for large-scale deployments where manual snapshot management would be time-consuming and error-prone.
+
+Amazon Data Lifecycle Manager Workflow:
+- Create an EBS snapshots policy: create an EBS snapshots policy using the Amazon EC2 console, API calls, AWS Command Line Interface (AWS CLI), SDKs, or AWS CloudFormation.
+- Select target resource type: choose either an EBS volume or an EC2 instance as the target for the snapshot.
+- Exclude volumes: Narrow down the data to be included in the snapshot by choosing options to exclude either the root volume or data volumes.
+- Set custom schedules: Automate the creation, retention, and deletion of EBS snapshots by setting up custom schedules.
+- Apply additional actions: Before finalizing the policy, you can apply additional actions. These include configuring elements of the snapshots like tags, snapshot archiving, Amazon EBS fast snapshot restore, cross-Region copying, and cross-account sharing.
