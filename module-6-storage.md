@@ -73,5 +73,30 @@ The AWS shared responsibility model groups services into three categories based 
      - Software for compute, storage, database, and networking
      - Hardware, AWS global infrastructure
 
+---
+# EC2 Instance Store and Amazon Elastic Block Store (Amazon EBS)
+## Amazon EC2 instance store
+- It is not a stand-alone AWS block storage service but it refers to the block-level storage that is physically attached to the EC2 instance host computer.
+- Its data is lost when an instance is stopped or terminated. (best for temporary memory-based storage needs like buffers, caches, and scratch data).
+- It is not recommended for applications that require data retention.
+
+Benefits
+- Automatically available storage.
+- Cost effective.
+- High performance.
 
 
+## Amazon Elastic Block Store (EBS)
+- It provides persistent block-level storage volumes for use with Amazon EC2 instances.
+- If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
+- EBS volumes act like external hard drives, offering consistent and low-latency performance for workloads like databases and file systems.
+- To create an EBS volume, you define the configuration for things like volume size and type.
+- Because EBS volumes are for data that needs to persist, it’s important to back up the data (It's recommended that you take incremental backups of EBS volumes by creating Amazon EBS snapshots).
+- Some practical use cases of Amazon EBS include database hosting, backup storage for applications, and rapid deployment of development environments using volume snapshots.
+
+Benefits
+- Data migration (EBS volumes can be easily migrated between Availability Zones using snapshots. The snapshots provide a simple way to move data across regions or create copies).
+- Instance type changes (you can easily attached them to different instance types)
+- Disaster recovery (EBS snapshots provide reliable backup solutions that can be restored in different regions during emergencies).
+- Cost Optimization.
+- Performance tuning.
