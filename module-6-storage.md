@@ -108,8 +108,8 @@ Amazon EBS data lifecycle management involves creating, backing up, and deleting
 - EBS snapshots are point-in-time backups of EBS volume.
 - They can be used for disaster recovery, data migration, volume resizing, and for creating consistent backups of production workloads.
 - They are incremental, so they only save the blocks on the volume that have changed after your most recent snapshot.
-- EBS snapshots can be used to create multiple new volumes, and new volumes created from a snapshot are an exact copy of the original volume at the time the snapshot was taken
-- napshots of EBS volumes are stored redundantly in multiple Availability Zones using Amazon S3.
+- EBS snapshots can be used to create multiple new volumes, and new volumes created from a snapshot are an exact copy of the original volume at the time the snapshot was taken.
+- Snapshots of EBS volumes are stored redundantly in multiple Availability Zones using Amazon S3.
 
 ### Working with EBS snapshots
 In keeping with the AWS shared responsibility model, as the customer, you are responsible for scheduling and managing regular EBS snapshots as part of your backup strategy. This includes monitoring snapshot costs and deleting unnecessary snapshots to avoid excessive charges. You also need to make sure sensitive data within snapshots is encrypted, verify snapshot integrity, and test restoration procedures regularly.
