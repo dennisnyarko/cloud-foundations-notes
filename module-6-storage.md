@@ -82,7 +82,7 @@ The AWS shared responsibility model groups services into three categories based 
 
 Benefits
 - Automatically available storage.
-- Cost effective.
+- Cost-effective.
 - High performance.
 
 
