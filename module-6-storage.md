@@ -76,7 +76,7 @@ The AWS shared responsibility model groups services into three categories based 
 ---
 # EC2 Instance Store and Amazon Elastic Block Store (Amazon EBS)
 ## Amazon EC2 instance store
-- It is not a stand-alone AWS block storage service but it refers to the block-level storage that is physically attached to the EC2 instance host computer.
+- It is not a stand-alone AWS block storage service, but it refers to the block-level storage that is physically attached to the EC2 instance host computer.
 - Its data is lost when an instance is stopped or terminated. (best for temporary memory-based storage needs like buffers, caches, and scratch data).
 - It is not recommended for applications that require data retention.
 
