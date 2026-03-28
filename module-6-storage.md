@@ -269,4 +269,11 @@ This policy instructs lifecycle management whether to transition files out of IA
 - It makes it convenient and cost-effective to launch, run, and scale feature-rich, high-performance file systems in the cloud.
 - It supports a wide range of workloads with its reliability, security, scalability, and broad set of capabilities.
 - Compared to Amazon EFS, which focuses on the Network File System (NFS) compatibility, Amazon FSx supports multiple filesystem protocols, including Windows File Server, Lustre, OpenZFS, and NetAPP ONTAP.
-- 
+- It is built on the latest AWS compute, networking, and disk technologies to provide high performance and lower total cost of ownership (TCO).
+- As a fully managed service, it handles hardware provisioning, patching, and backups.
+
+Amazon FSx benefits
+- File system integration.
+- Managed Infrastructure.
+- Scalable Storage
+- Cost-effective.
