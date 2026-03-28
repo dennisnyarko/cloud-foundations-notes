@@ -264,3 +264,9 @@ This policy instructs lifecycle management when to move files into the Archive s
 - Transition to Standard
 
 This policy instructs lifecycle management whether to transition files out of IA or Archive and back into Standard storage when the files are accessed in the IA or Archive storage. By default, files are not moved back to Standard storage, and they remain in the IA or Archive storage class when they are accessed.
+
+# Amazon FSx
+- It makes it convenient and cost-effective to launch, run, and scale feature-rich, high-performance file systems in the cloud.
+- It supports a wide range of workloads with its reliability, security, scalability, and broad set of capabilities.
+- Compared to Amazon EFS, which focuses on the Network File System (NFS) compatibility, Amazon FSx supports multiple filesystem protocols, including Windows File Server, Lustre, OpenZFS, and NetAPP ONTAP.
+- 
