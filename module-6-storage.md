@@ -280,6 +280,15 @@ Amazon FSx benefits
 
 ## Amazon FSx file systems
 1) Amazon FSx for Windows File Server
+
+Amazon FSx for Windows File Server provides fully managed shared storage built on Windows Server. It delivers a wide range of data access, data management, and administrative capabilities.
+
+Use cases include the following:
+  - Migrate Windows file servers to AWS.
+  - Accelerate hybrid workloads.
+  - Reduce SQL Server deployment cost.
+  - Streamline virtual desktops and streaming.
+    
 2) Amazon FSx for NetApp ONTAP
 3) Amazon FSx for OpenZFS
 4) Amazon FSx for Lustre
