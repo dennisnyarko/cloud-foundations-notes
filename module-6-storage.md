@@ -280,4 +280,6 @@ Amazon FSx benefits
 
 ## Amazon FSx file systems
 1) Amazon FSx for Windows File Server
-2) 
+2) Amazon FSx for NetApp ONTAP
+3) Amazon FSx for OpenZFS
+4) Amazon FSx for Lustre
