@@ -277,3 +277,7 @@ Amazon FSx benefits
 - Managed Infrastructure.
 - Scalable Storage
 - Cost-effective.
+
+## Amazon FSx file systems
+1) Amazon FSx for Windows File Server
+2) 
