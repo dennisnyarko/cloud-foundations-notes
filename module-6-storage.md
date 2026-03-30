@@ -293,6 +293,11 @@ Use cases include the following:
 
 Amazon FSx for NetApp ONTAP provides fully managed shared storage in the AWS Cloud with the popular data access and management capabilities of ONTAP.
 
+Use cases include the following:
+  - Migrate workloads to AWS seamlessly.
+  - Build modern applications.
+  - Modernize your data management.
+  - Streamline business continuity.
 
 3) Amazon FSx for OpenZFS
 4) Amazon FSx for Lustre
