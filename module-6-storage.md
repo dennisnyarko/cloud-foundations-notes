@@ -290,5 +290,9 @@ Use cases include the following:
   - Streamline virtual desktops and streaming.
     
 2) Amazon FSx for NetApp ONTAP
+
+Amazon FSx for NetApp ONTAP provides fully managed shared storage in the AWS Cloud with the popular data access and management capabilities of ONTAP.
+
+
 3) Amazon FSx for OpenZFS
 4) Amazon FSx for Lustre
