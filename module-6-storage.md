@@ -280,8 +280,7 @@ Amazon FSx benefits
 
 ## Amazon FSx file systems
 1) Amazon FSx for Windows File Server
-
-Amazon FSx for Windows File Server provides fully managed shared storage built on Windows Server. It delivers a wide range of data access, data management, and administrative capabilities.
+It provides fully managed shared storage built on Windows Server. It delivers a wide range of data access, data management, and administrative capabilities.
 
 Use cases include the following:
   - Migrate Windows file servers to AWS.
@@ -291,7 +290,7 @@ Use cases include the following:
     
 2) Amazon FSx for NetApp ONTAP
 
-Amazon FSx for NetApp ONTAP provides fully managed shared storage in the AWS Cloud with the popular data access and management capabilities of ONTAP.
+It provides fully managed shared storage in the AWS Cloud with the popular data access and management capabilities of ONTAP.
 
 Use cases include the following:
   - Migrate workloads to AWS seamlessly.
@@ -300,4 +299,53 @@ Use cases include the following:
   - Streamline business continuity.
 
 3) Amazon FSx for OpenZFS
+
+It provides fully managed shared file storage built on the OpenZFS file system and accessible through the NFS protocol (v3, v4, v4.1, and v4.2).
+
+Use cases include the following:
+  - Migrate workloads to AWS seamlessly.
+  - Deliver insights faster for data analytics workloads.
+  - Accelerate content management.
+  - Increase dev/test velocity.
+
 4) Amazon FSx for Lustre
+
+It provides fully managed shared storage with the scalability and performance of the popular Lustre file system.
+
+Use cases include the following:
+  - Accelerate machine learning (ML).
+  - Enable high-performance computing (HPC).
+  - Unlock big data analytics.
+  - Increase media workload agility.
+
+
+# Amazon Storage Gateway
+- It is a hybrid cloud storage service that makes it possible to seamlessly integrate on-premises environments with AWS Cloud storage.
+- It can be used to extend your local storage to the cloud while maintaining low-latency access to frequently used data.
+- It can also be used to streamline storage management and reduce costs for practical hybrid cloud storage use cases.
+
+Benefits
+- Seamless Integration (enables smooth connectivity between on-premises applications and AWS Cloud storage).
+- Improved data management (provides centralized management of hybrid storage environments, enhancing accessibility, security, and compliance).
+- Local Caching (locally keeps frequently accessed data for quick access while managing less-used data in the cloud).
+- Cost Optimization (reduces on-premises storage costs by using cloud storage for data archiving, backup, and disaster recovery purposes).
+
+### Gateway types
+1) Amazon S3 File Gateway
+  - It bridges your local environment with Amazon S3.
+  - It provides on-premises applications with access to virtually unlimited cloud storage through familiar file protocols.
+  - It makes it possible to store and retrieve cloud objects using familiar file operations.
+  - When you deploy an S3 File Gateway, it appears to your local systems as a standard file server. Files written to this server are automatically uploaded to Amazon S3 while maintaining local access to recently used data through intelligent caching. This means your applications can continue working with files as they always have, while the actual data is securely stored in the AWS Cloud.
+  
+2) Volume Gateway
+  - With Volume Gateway, you create virtual storage volumes while maintaining local access to your data.
+  - It essentially functions as a bridge between your on-premises infrastructure and AWS Cloud storage by presenting your cloud data as iSCSI volumes that can be mounted by your existing applications.
+
+  Volume Gateway operates in two main configurations:
+  - Cached volume mode stores primary data in the cloud while frequently accessed data is cached locally for low-latency access.
+  - Stored volume mode locally keeps your complete dataset while asynchronously backing it up to the cloud as EBS snapshots.
+  
+3) Tape Gateway
+  - It makes it possible to replace physical tape infrastructure with virtual tape capabilities while benefitting from the durability and scalability of AWS Cloud storage.
+  - It provides an interface that works with existing tape backup software, making the transition from physical tapes to cloud storage seamless.
+  - When you deploy a Tape Gateway, it presents itself to your backup applications as standard tape hardware. Your backup software writes data to these virtual tapes just as it would to physical tapes and stored in Amazon S3. You can also configure Tape Gateway to automatically transition less frequently accessed data to a more cost-effective storage class for long-term retention.
