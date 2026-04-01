@@ -342,10 +342,10 @@ Benefits
   - It essentially functions as a bridge between your on-premises infrastructure and AWS Cloud storage by presenting your cloud data as iSCSI volumes that can be mounted by your existing applications.
 
   Volume Gateway operates in two main configurations:
-  - Cached volume mode stores primary data in the cloud while frequently accessed data is cached locally for low-latency access.
+  - Cached volume mode stores primary data in the cloud, while frequently accessed data is cached locally for low-latency access.
   - Stored volume mode locally keeps your complete dataset while asynchronously backing it up to the cloud as EBS snapshots.
   
 3) Tape Gateway
   - It makes it possible to replace physical tape infrastructure with virtual tape capabilities while benefitting from the durability and scalability of AWS Cloud storage.
   - It provides an interface that works with existing tape backup software, making the transition from physical tapes to cloud storage seamless.
-  - When you deploy a Tape Gateway, it presents itself to your backup applications as standard tape hardware. Your backup software writes data to these virtual tapes just as it would to physical tapes and stored in Amazon S3. You can also configure Tape Gateway to automatically transition less frequently accessed data to a more cost-effective storage class for long-term retention.
+  - When you deploy a Tape Gateway, it presents itself to your backup applications as standard tape hardware. Your backup software writes data to these virtual tapes just as it would to physical tapes and stores them in Amazon S3. You can also configure Tape Gateway to automatically transition less frequently accessed data to a more cost-effective storage class for long-term retention.
