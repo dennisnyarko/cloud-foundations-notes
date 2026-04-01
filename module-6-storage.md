@@ -318,7 +318,6 @@ Use cases include the following:
   - Unlock big data analytics.
   - Increase media workload agility.
 
-
 # Amazon Storage Gateway
 - It is a hybrid cloud storage service that makes it possible to seamlessly integrate on-premises environments with AWS Cloud storage.
 - It can be used to extend your local storage to the cloud while maintaining low-latency access to frequently used data.
