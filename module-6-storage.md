@@ -360,3 +360,8 @@ Benefits
 - Streamline disaster recovery: Automate disaster recovery processes through an intuitive console, reducing complex manual configurations and minimizing the risk of human error.
 - Cost Optimization: Eliminate expensive secondary data centers and pay only for what you use, with minimal upfront investment and no standby infrastructure costs.
 
+Use cases
+- Healthcare data protection.
+- Financial services continuity.
+- Manufacturing operations recovery.
+
