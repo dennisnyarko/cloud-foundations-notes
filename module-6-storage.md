@@ -348,3 +348,9 @@ Benefits
   - It makes it possible to replace physical tape infrastructure with virtual tape capabilities while benefitting from the durability and scalability of AWS Cloud storage.
   - It provides an interface that works with existing tape backup software, making the transition from physical tapes to cloud storage seamless.
   - When you deploy a Tape Gateway, it presents itself to your backup applications as standard tape hardware. Your backup software writes data to these virtual tapes just as it would to physical tapes and stores them in Amazon S3. You can also configure Tape Gateway to automatically transition less frequently accessed data to a more cost-effective storage class for long-term retention.
+
+# AWS Elastic Disaster Recovery
+- It replicates critical workloads to AWS with minimal downtime: (Your servers' block-level data is continuously replicated to AWS, making it ideal for uses that require robust disaster recovery solutions).
+- It supports both physical and virtual servers to enable rapid recovery during disruptions, e.g., healthcare systems.
+- It is used to reduce downtimes and data loss while eliminating the costs associated with maintaining secondary data centers.
+- It also offers non-disruptive disaster recovery testing, meaning it's capable of quickly launching recovery instances when needed.
