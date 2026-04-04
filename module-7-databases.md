@@ -6,3 +6,4 @@
 - This approach stores data in an easily understandable, consistent, and scalable way that works great for applications requiring structured data management.
 
 # Amazon Relational Database Service (Amazon RDS)
+- It is a managed relational database service that handles routine database tasks such as backups, patching, and hardware provisioning.
