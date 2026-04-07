@@ -4,7 +4,7 @@ AWS database services include options for
 - Nonrelational databases
 - In-memory caches
 
-  
+
 # Relational Database Services
 
 ## Relational Databases
