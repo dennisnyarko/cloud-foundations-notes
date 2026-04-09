@@ -1,5 +1,5 @@
 # Introduction to Databases
-AWS database services include options for
+AWS database services include options for:
 - Relational databases
 - Nonrelational databases
 - In-memory caches
