@@ -43,3 +43,5 @@ Benefits
 - Advanced replication and fault tolerance: It replicates data across three Availability Zones with six copies of data, and provides 99.99% availability. It automatically detects database failures and redirects traffic to healthy replicas without data loss.
 
 #NoSQL Database Services
+- It uses flexible data schemas for storing and retrieving many different types of information.
+- sometimes referred to as non-relational databases because their structures are different than relational databases like Amazon RDS.
