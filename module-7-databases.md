@@ -42,6 +42,12 @@ Benefits
 - Automated storage and backup management: It automatically grows storage from 10 GB to 128 TB based on your actual data usage, which eliminates guesswork in capacity planning. It also continuously backs up your database to Amazon S3 to provide point-in-time recovery.
 - Advanced replication and fault tolerance: It replicates data across three Availability Zones with six copies of data, and provides 99.99% availability. It automatically detects database failures and redirects traffic to healthy replicas without data loss.
 
+
 #NoSQL Database Services
+
+## NoSQL Databases
 - It uses flexible data schemas for storing and retrieving many different types of information.
-- sometimes referred to as non-relational databases because their structures are different than relational databases like Amazon RDS.
+- Sometimes referred to as non-relational databases because their structures are different than relational databases like Amazon RDS.
+- Instead of row and column relationships, NoSQL databases build a structure for the data that they contain using key-value pairs instead.
+- With key-value pairs, data is organized into items identified by unique keys.
+- 
