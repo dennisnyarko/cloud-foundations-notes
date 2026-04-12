@@ -50,4 +50,10 @@ Benefits
 - Sometimes referred to as non-relational databases because their structures are different than relational databases like Amazon RDS.
 - Instead of row and column relationships, NoSQL databases build a structure for the data that they contain using key-value pairs instead.
 - With key-value pairs, data is organized into items identified by unique keys.
-- 
+
+
+# Amazon DynamoDB
+- It is a fully managed NoSQL database service that provides fast and predictable performance for both document and key-value data structures.
+- Fast option for cases that require a flexible schema, and applications that require high performance and seamless scaling.
+- It automatically spreads your data across multiple servers to handle your workload.
+- Use cases: gaming platforms, financial service applications, and mobile applications with global user bases.
