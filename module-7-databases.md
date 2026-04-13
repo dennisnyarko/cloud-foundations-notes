@@ -14,7 +14,7 @@ AWS database services include options for:
 - AWS relational databases support popular database engines like MySQL, PostgreSQL, and Oracle, making it easier to migrate existing databases to AWS.
 - An example of a relational database would be an inventory management system for a restaurant. Each record in the database includes data for a single item, such as product name, size, price, and so on.
 
-# Amazon Relational Database Service (Amazon RDS)
+## Amazon Relational Database Service (Amazon RDS)
 - It is a managed relational database service that handles routine database tasks such as backups, patching, and hardware provisioning.
 - It supports multiple database instance class types that optimize for memory, performance, or input/output (I/O).
 - Amazon RDS offers Multi-AZ deployment and automated backups, but you can also manually create backups using DB snapshots.
@@ -30,7 +30,7 @@ Benefits
 - Security Controls: It enhances database security through multiple layers of protection, including VPC isolation as well as encryption at rest and in transit.
 
 
-# Amazon Aurora
+## Amazon Aurora
 - It is a managed relational database designed to help reduce unnecessary I/O operations and is compatible with MySQL and PostgreSQL.
 - It provides high performance and availability, and automatically scales alongside your workloads.
 - It replicates data across multiple Availability Zones for enhanced durability and fault tolerance, and features automated backups, encryption at rest, and continuous monitoring.
@@ -52,7 +52,7 @@ Benefits
 - With key-value pairs, data is organized into items identified by unique keys.
 
 
-# Amazon DynamoDB
+## Amazon DynamoDB
 - It is a fully managed NoSQL database service that provides fast and predictable performance for both document and key-value data structures.
 - Fast option for cases that require a flexible schema, and applications that require high performance and seamless scaling.
 - It automatically spreads your data across multiple servers to handle your workload.
