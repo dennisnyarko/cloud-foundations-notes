@@ -57,3 +57,10 @@ Benefits
 - Fast option for cases that require a flexible schema, and applications that require high performance and seamless scaling.
 - It automatically spreads your data across multiple servers to handle your workload.
 - Use cases: gaming platforms, financial service applications, and mobile applications with global user bases.
+
+Benefits
+- Scalability with provisioned capacity: It automatically scales throughput up or down based on actual usage, which ensures consistent performance without manual intervention.
+- Consistent high performance: It delivers single-digit millisecond response times at any scale, which makes it ideal for high-performance applications.
+- High availability and durability: It delivers 99.999% data availability by replicating data across three distinct facilities within each AWS Region. (to provide built-in fault tolerance and data durability).
+- Data encryption: It offers comprehensive encryption capabilities to protect information both at rest and in transit.
+
