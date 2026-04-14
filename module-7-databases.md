@@ -89,3 +89,9 @@ Benefits:
 - It is fully managed service designed to handle semistructured data, which is information that doesn't conform to rigid relational schemas.
 - It is a MongoDB-compatible database, so it manages JSON-like documents with dynamic schemas.
 - Perfect for applications requiring frequent schema changes and document-oriented data.
+- Use cases: content management systems, catalog and inventory management, and user profile and personalization systems.
+
+Benefits:
+- MongoDB compatibility
+- Performance and scalability: automatically scales storage up to 64 TB in 10 GB increments based on your application needs.
+- Increased read throughput: by creating up to 15 replica instances that share underlying storage.
