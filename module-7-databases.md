@@ -83,3 +83,9 @@ Benefits:
 - High availability: It provides high availability by constantly monitoring primary nodes for potential failures. When issues are detected, it maintains application availability while promoting a replica node to become the new primary without manual intervention. (all done in minutes)
 - Replication across multiple Availability Zones: It enables automatic replication across multiple Availability Zones to protect against infrastructure failures.
 - Data encryption: It supports data encryption mechanisms to safeguard sensitive information throughout its lifecycle.
+
+# Additional Database Services
+## Amazon DocumentDB
+- It is fully managed service designed to handle semistructured data, which is information that doesn't conform to rigid relational schemas.
+- It is a MongoDB-compatible database, so it manages JSON-like documents with dynamic schemas.
+- Perfect for applications requiring frequent schema changes and document-oriented data.
