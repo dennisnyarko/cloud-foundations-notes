@@ -95,3 +95,9 @@ Benefits:
 - MongoDB compatibility
 - Performance and scalability: automatically scales storage up to 64 TB in 10 GB increments based on your application needs.
 - Increased read throughput: by creating up to 15 replica instances that share underlying storage.
+
+
+## AWS Backup
+- It streamlines data protection across various AWS resources and on-premises deployments by providing a single dashboard for monitoring and managing backups.
+- It eliminates the complexity of managing multiple backup strategies by supporting multiple storage types, including Amazon Elastic Block Store (Amazon EBS) volumes, Amazon Elastic File System (Amazon EFS) file systems, and various databases.
+- 
