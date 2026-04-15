@@ -111,4 +111,9 @@ Benefits
 
 ## Amazon Neptune
 - It is a fully managed, purpose-built graph database service that manages highly connected data sets, like those used in social networking applications.
-- t excels at understanding complex relationships that are difficult to identify in traditional relational databases like user connections, friend networks, and interaction patterns.
+- It excels at understanding complex relationships that are difficult to identify in traditional relational databases like user connections, friend networks, and interaction patterns.
+- It maintains high performance even as data complexity grows, and offers high availability with automatic failover and backups.
+- Use cases: social network user connection mapping, fraud detection systems, and search and recommendation systems.
+
+Benefits
+- High performance and scalability: It delivers consistent performance at scale, processing billions of relationships in milliseconds. It automatically grows storage up to 64 TB based on your application needs. Its purpose-built engine optimizes graph queries to enable fast traversal of connected data points at scale.
