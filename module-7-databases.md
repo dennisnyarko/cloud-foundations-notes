@@ -108,3 +108,7 @@ Benefits
 - Centralized backup management: provides a single dashboard to manage backups across multiple AWS services and accounts.
 - Cross-region backup redundancy: enables automatic replication of backup data across different AWS Regions for disaster recovery purposes.
 - Streamlined regulatory compliance: maintains detailed audit logs and reports to demonstrate compliance with regulatory requirements. 
+
+## Amazon Neptune
+- It is a fully managed, purpose-built graph database service that manages highly connected data sets, like those used in social networking applications.
+- t excels at understanding complex relationships that are difficult to identify in traditional relational databases like user connections, friend networks, and interaction patterns.
