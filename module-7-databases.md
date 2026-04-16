@@ -17,8 +17,8 @@ AWS database services include options for:
 ## Amazon Relational Database Service (Amazon RDS)
 - It is a managed relational database service that handles routine database tasks such as backups, patching, and hardware provisioning.
 - It supports multiple database instance class types that optimize for memory, performance, or input/output (I/O).
-- Amazon RDS offers Multi-AZ deployment and automated backups, but you can also manually create backups using DB snapshots.
-- Amazon RDS offers security features including network isolation, encryption in transit, and encryption at rest.
+- It offers Multi-AZ deployment and automated backups, but you can also manually create backups using DB snapshots.
+- It offers security features including network isolation, encryption in transit, and encryption at rest.
 - Amazon RDS supports different database engines, including Amazon Aurora, MySQL, PostgreSQL, Microsoft SQL Server, MariaDB, and Oracle Database.
 - Use cases: web applications, enterprise workloads, and product inventories for e-commerce platforms.
 
