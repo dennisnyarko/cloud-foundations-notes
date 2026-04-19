@@ -15,3 +15,8 @@ The AWS AI/ML stack is composed of the following three tiers of solutions:
 - ML frameworks and infrastructure: a completely custom approach to building models using purpose-built chips that integrate with popular ML frameworks.
 
 # AWS AI/ML Solutions
+## Tier 1: Pre-built AWS AI services
+The AWS AI services tier is made up of pre-built models that are already trained to perform specific functions. These ready-to-use, managed services can help you quickly solve for a variety of business use cases.
+- Language services
+- Computer vision and search services
+- Conversational AI and personalization services
