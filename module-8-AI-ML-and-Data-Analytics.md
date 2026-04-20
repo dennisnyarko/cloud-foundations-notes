@@ -20,3 +20,8 @@ The AWS AI services tier is made up of pre-built models that are already trained
 - Language services
 - Computer vision and search services
 - Conversational AI and personalization services
+
+## Language Services
+- Amazon Comprehend: It uses natural language processing to extract key insights from documents. It develops these insights by recognizing key phrases, language, sentiment, and other common elements in documents. Use cases: Content classification, customer sentiment analysis, and compliance monitoring.
+- Amazon Polly: It converts text into lifelike speech. It supports multiple languages, different genders, and a variety of accents. Use cases: Virtual assistants, e-learning applications, and accessibility enhancements for visually impaired users.
+- 
