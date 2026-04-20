@@ -24,4 +24,7 @@ The AWS AI services tier is made up of pre-built models that are already trained
 ## Language Services
 - Amazon Comprehend: It uses natural language processing to extract key insights from documents. It develops these insights by recognizing key phrases, language, sentiment, and other common elements in documents. Use cases: Content classification, customer sentiment analysis, and compliance monitoring.
 - Amazon Polly: It converts text into lifelike speech. It supports multiple languages, different genders, and a variety of accents. Use cases: Virtual assistants, e-learning applications, and accessibility enhancements for visually impaired users.
-- 
+- Amazon Transcribe: It converts speech into text. It supports multiple languages and offers features such as speaker identification, custom vocabulary, and real-time transcription. Use Cases: Customer call transcription, automated subtitling, and metadata generation for media content.
+- Amazon Translate: It is a text translation service. This service is ideal for global communication because it supports real-time and batch text translation across multiple languages. Use cases: Document translation and multi-language application integrations
+
+## Computer vision and search services
