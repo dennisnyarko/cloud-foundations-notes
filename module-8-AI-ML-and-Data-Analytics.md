@@ -30,3 +30,6 @@ The AWS AI services tier is made up of pre-built models that are already trained
 ## Computer vision and search services
 - Amazon Kendra: It uses natural language processing to search for answers within large amounts of enterprise content. Because it understands the context of a query, it can return more precise and relevant answers than just a list of documents with matching keywords. Use cases: Intelligent search, chatbots, and application search integration.
 - Amazon Rekognition: It is a video analysis service. It can identify objects, people, text, scenes, and activities within images and videos stored in Amazon Simple Storage Service (Amazon S3). Use cases: Content moderation, identity verification, media analysis, and home automation experiences.
+- Amazon Textract: It detects and extracts typed and handwritten text found in documents, forms, and even tables within documents. Use cases: Financial, healthcare, and government form text extraction for quick processing.
+
+## Conversational AI and personalization services
