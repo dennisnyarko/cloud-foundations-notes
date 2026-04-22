@@ -35,3 +35,9 @@ The AWS AI services tier is made up of pre-built models that are already trained
 ## Conversational AI and personalization services
 - Amazon Lex: With Amazon Lex, you can add voice and text conversational interfaces to your applications. This service uses both natural language understanding (NLU) and automatic speech recognition (ASR) to create lifelike conversations. Use cases: Virtual assistants, natural language search for FAQs, and automated application bots.
 - Amazon Personalize: With Amazon Personalize, you can use historical data to build intelligent applications with personalized recommendations for your customers. Use cases: Personalized streaming, product, and trending recommendations.
+---
+
+## Tier 2: ML services
+The ML services tier provides a more customized approach for customers who want a bit more control over their ML solutions without having to manage infrastructure. SageMaker AI is a key offering in this tier.
+
+- Amazon SageMaker AI
