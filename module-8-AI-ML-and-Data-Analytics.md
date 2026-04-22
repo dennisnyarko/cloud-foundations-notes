@@ -33,3 +33,5 @@ The AWS AI services tier is made up of pre-built models that are already trained
 - Amazon Textract: It detects and extracts typed and handwritten text found in documents, forms, and even tables within documents. Use cases: Financial, healthcare, and government form text extraction for quick processing.
 
 ## Conversational AI and personalization services
+- Amazon Lex: With Amazon Lex, you can add voice and text conversational interfaces to your applications. This service uses both natural language understanding (NLU) and automatic speech recognition (ASR) to create lifelike conversations. Use cases: Virtual assistants, natural language search for FAQs, and automated application bots.
+- Amazon Personalize: With Amazon Personalize, you can use historical data to build intelligent applications with personalized recommendations for your customers. Use cases: Personalized streaming, product, and trending recommendations.
