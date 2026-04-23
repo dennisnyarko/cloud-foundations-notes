@@ -23,17 +23,23 @@ The AWS AI services tier is made up of pre-built models that are already trained
 
 ## Language Services
 - Amazon Comprehend: It uses natural language processing to extract key insights from documents. It develops these insights by recognizing key phrases, language, sentiment, and other common elements in documents. Use cases: Content classification, customer sentiment analysis, and compliance monitoring.
+
 - Amazon Polly: It converts text into lifelike speech. It supports multiple languages, different genders, and a variety of accents. Use cases: Virtual assistants, e-learning applications, and accessibility enhancements for visually impaired users.
+
 - Amazon Transcribe: It converts speech into text. It supports multiple languages and offers features such as speaker identification, custom vocabulary, and real-time transcription. Use Cases: Customer call transcription, automated subtitling, and metadata generation for media content.
+
 - Amazon Translate: It is a text translation service. This service is ideal for global communication because it supports real-time and batch text translation across multiple languages. Use cases: Document translation and multi-language application integrations
 
 ## Computer vision and search services
 - Amazon Kendra: It uses natural language processing to search for answers within large amounts of enterprise content. Because it understands the context of a query, it can return more precise and relevant answers than just a list of documents with matching keywords. Use cases: Intelligent search, chatbots, and application search integration.
+
 - Amazon Rekognition: It is a video analysis service. It can identify objects, people, text, scenes, and activities within images and videos stored in Amazon Simple Storage Service (Amazon S3). Use cases: Content moderation, identity verification, media analysis, and home automation experiences.
+
 - Amazon Textract: It detects and extracts typed and handwritten text found in documents, forms, and even tables within documents. Use cases: Financial, healthcare, and government form text extraction for quick processing.
 
 ## Conversational AI and personalization services
 - Amazon Lex: With Amazon Lex, you can add voice and text conversational interfaces to your applications. This service uses both natural language understanding (NLU) and automatic speech recognition (ASR) to create lifelike conversations. Use cases: Virtual assistants, natural language search for FAQs, and automated application bots.
+
 - Amazon Personalize: With Amazon Personalize, you can use historical data to build intelligent applications with personalized recommendations for your customers. Use cases: Personalized streaming, product, and trending recommendations.
 ---
 
@@ -52,4 +58,6 @@ Key benefits of SageMaker AI
 Some organizations have highly specialized needs that require complete control over the ML training process. They can use in-house expertise, ML frameworks, and AWS infrastructure to develop their own ML solutions.
 
 Core components
-- ML frameworks
+- ML frameworks: An ML framework is a software library or tool that provides experienced ML practitioners with pre-built, optimized components for building machine learning models. AWS supports ML frameworks like PyTorch, Apache M-X Net, and TensorFlow.
+
+- AWS ML infrastructure: AWS ML infrastructure, such as ML-optimized Amazon Elastic Compute Cloud (Amazon EC2) instances, Amazon EMR, and Amazon Elastic Container Service (Amazon ECS), can support these custom solutions. These services provide high performance and flexibility for advanced ML workloads.
