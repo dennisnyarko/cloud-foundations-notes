@@ -46,3 +46,10 @@ Key benefits of SageMaker AI
 - Choice of ML tools: Increase innovation with different tool choices. Data scientists can use the IDE, and business analysts can use the no-code interface.
 - Fully managed infrastructure: Focus on ML model development while SageMaker AI provides you with high-performance, cost-effective infrastructure.
 - Repeatable ML workflows: Automate and standardize your MLOps practices and governance across your enterprise to support transparency and auditability.
+---
+
+## Tier 3: ML frameworks and infrastructure
+Some organizations have highly specialized needs that require complete control over the ML training process. They can use in-house expertise, ML frameworks, and AWS infrastructure to develop their own ML solutions.
+
+Core components
+- ML frameworks
