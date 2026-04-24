@@ -17,9 +17,9 @@ The AWS AI/ML stack is composed of the following three tiers of solutions:
 # AWS AI/ML Solutions
 ## Tier 1: Pre-built AWS AI services
 The AWS AI services tier is made up of pre-built models that are already trained to perform specific functions. These ready-to-use, managed services can help you quickly solve for a variety of business use cases.
-- Language services
-- Computer vision and search services
-- Conversational AI and personalization services
+- Language services.
+- Computer vision and search services.
+- Conversational AI and personalization services.
 
 ## Language Services
 - Amazon Comprehend: It uses natural language processing to extract key insights from documents. It develops these insights by recognizing key phrases, language, sentiment, and other common elements in documents. Use cases: Content classification, customer sentiment analysis, and compliance monitoring.
