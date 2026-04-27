@@ -67,3 +67,5 @@ Core components
 - Deep Learning: It is a subset of machine learning where models are trained using layers of artificial neurons that mimic the human brain. Each layer of these neural networks summarizes and feeds information to the next layer until a final model is produced.
 
 - Generative AI: It is a type of deep learning powered by extremely large ML models known as foundation models (FMs). FMs are pre-trained on vast collections of data. While traditional ML models are trained to perform singular tasks, FMs can be adapted to perform multiple tasks.
+
+- Large language models (LLMs): They are a popular type of FM trained to use human language. Foundation models can also be used to create videos, images, music, and more.
